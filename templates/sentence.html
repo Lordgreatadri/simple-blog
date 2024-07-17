@@ -1,0 +1,7 @@
+<form action="counter" method="post">
+    {% csrf_token %}
+    <h1>Word Counts</h1>
+    <textarea name="sentence" id="sentence" cols="100" rows="25"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
