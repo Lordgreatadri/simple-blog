@@ -5,15 +5,19 @@ But it is recommended you create a virtual environment before running the pip in
 
 #To create virtual enviroment, py -m venv <name>
 >>py -m venv venv  
+
 #activate virtual environment   
 >> venv\Scripts\activate.bat
 
 Now you can run the pip install command
 >>pip install -r plugin.txt
+
 #to run your project, you need to start your application
 >>py manage.py runserver
-#to create database migration, sqlite is been used so you won't need db credentials settings
+
+#to create database migration, sqlite is been used so you won't need db credentials settings 
 >>py manage.py makemigrations
+
 #then migrate
 >>py manage.py migrate
 
